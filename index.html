@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Coresight Marketing — Your Brand's Influence Starts Here</title>
+  <meta name="description" content="Award-winning influencer marketing agency powered by strategy. We turn brand influence into impact.">
+  
+  <!-- SEO / Open Graph -->
+  <meta property="og:title" content="Coresight Marketing">
+  <meta property="og:description" content="Award-winning influencer marketing agency powered by strategy.">
+  <meta property="og:type" content="website">
+  
+  <!-- Font Loading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cursor Following Bloom Orb -->
+  <div class="cursor-bloom" id="cursorBloom" aria-hidden="true"></div>
+
+  <!-- Scroll Progress Bar -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Sticky Navigation Bar -->
+  <header class="nav-container">
+    <div class="nav-wrapper max-w-container">
+      <a href="#" class="logo-link" aria-label="Coresight Marketing Home">
+        <div class="logo-lockup">
+          <svg class="logo-icon" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" fill="none">
+            <path id="logo-path-1" d="M60,20 C42,20 25,32 25,52 C25,68 35,78 48,82 C42,75 37,65 37,54 C37,40 47,29 62,29 C74,29 84,36 88,46 C86,30 74,20 60,20 Z" />
+            <path id="logo-path-2" d="M60,100 C78,100 95,88 95,68 C95,52 85,42 72,38 C78,45 83,55 83,66 C83,80 73,91 58,91 C46,91 36,84 32,74 C34,90 46,100 60,100 Z" />
+          </svg>
+          <div class="logo-text">
+            <span class="logo-title">CORESIGHT</span>
+            <span class="logo-sub">MARKETING</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Desktop Links -->
+      <nav class="nav-links" aria-label="Desktop Navigation">
+        <div class="nav-item dropdown-trigger">
+          <button class="nav-link dropdown-btn" aria-expanded="false" aria-controls="industries-dropdown">
+            Industries <span class="chevron" aria-hidden="true">▾</span>
+          </button>
+          <div id="industries-dropdown" class="dropdown-panel">
+            <a href="#cases" class="dropdown-item" data-filter="Cybersecurity">Cybersecurity</a>
+            <a href="#cases" class="dropdown-item" data-filter="EdTech">EdTech</a>
+            <a href="#cases" class="dropdown-item" data-filter="HealthTech">HealthTech</a>
+            <a href="#cases" class="dropdown-item" data-filter="Mobile Apps">Mobile Apps</a>
+            <a href="#cases" class="dropdown-item" data-filter="SaaS">SaaS</a>
+          </div>
+        </div>
+        <a href="#value-prop" class="nav-link">Services</a>
+        <a href="#cases" class="nav-link">Case Studies</a>
+        <a href="#results" class="nav-link">Insights</a>
+      </nav>
+
+      <!-- CTA Action -->
+      <div class="nav-actions">
+        <div class="magnetic-wrap">
+          <a href="#contact" class="nav-cta btn-magnetic">Let's Talk +</a>
+        </div>
+        <button class="hamburger" aria-label="Toggle Navigation" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
+    <nav class="mobile-nav-links" aria-label="Mobile Navigation">
+      <a href="#value-prop" class="mobile-menu-link">Services</a>
+      <a href="#cases" class="mobile-menu-link">Case Studies</a>
+      <a href="#results" class="mobile-menu-link">Insights</a>
+      <a href="#contact" class="mobile-menu-link cta-mobile">Let's Talk +</a>
+    </nav>
+  </div>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section" id="hero">
+    
+    <!-- Animated floating grid lines -->
+    <div class="hero-grid-bg" aria-hidden="true"></div>
+
+    <!-- Morphing Liquid Gradient Mesh -->
+    <div class="liquid-mesh-container" aria-hidden="true">
+      <div class="mesh-blob mesh-blob-1"></div>
+      <div class="mesh-blob mesh-blob-2"></div>
+      <div class="mesh-blob mesh-blob-3"></div>
+    </div>
+
+    <!-- Floating particles -->
+    <div class="hero-particles" id="heroParticles" aria-hidden="true"></div>
+
+    <div class="hero-content max-w-container">
+      <div class="hero-text-block">
+        
+        <!-- Animated Eyebrow -->
+        <p class="hero-subtext anim-fade-up" style="--delay: 0.1s">
+          Award-winning influencer marketing <span class="bullet-accent">•</span> <span class="blue-text-accent">POWERED BY MARKETERS</span>
+        </p>
+        
+        <!-- Stacked H1 with character-level animation -->
+        <h1 class="hero-title">
+          <span class="title-line anim-slide-up" style="--delay: 0.25s">YOUR BRAND'S</span>
+          <span class="title-line gradient-text anim-slide-up" style="--delay: 0.4s">INFLUENCE</span>
+          <span class="title-line anim-slide-up" style="--delay: 0.55s">STARTS HERE</span>
+        </h1>
+
+        <!-- Hero CTA Row -->
+        <div class="hero-cta-row anim-fade-up" style="--delay: 0.75s">
+          <a href="#contact" class="hero-btn btn-magnetic">
+            <span class="hero-btn-text">Start a project</span>
+            <span class="hero-btn-arrow">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </span>
+          </a>
+          <a href="#cases" class="hero-secondary-link">
+            View case studies
+            <span class="link-underline-anim"></span>
+          </a>
+        </div>
+      </div>
+      
+      <!-- Trust Bar Ticker -->
+      <div class="ticker-wrapper anim-fade-up" style="--delay: 0.9s">
+        <div class="ticker-wrap">
+          <div class="ticker-inner">
+            <div class="logo-item"><svg viewBox="0 0 160 40" fill="none"><path d="M15 30 C15 10, 45 10, 45 30" stroke="currentColor" stroke-width="4" fill="none"/><text x="60" y="27" font-family="var(--font-display)" font-weight="700" font-size="18" fill="currentColor">HELIX</text></svg></div>
+            <div class="logo-item"><svg viewBox="0 0 180 40" fill="none"><rect x="15" y="10" width="30" height="20" rx="4" stroke="currentColor" stroke-width="3" fill="none"/><line x1="15" y1="10" x2="45" y2="30" stroke="currentColor" stroke-width="3"/><text x="60" y="27" font-family="var(--font-display)" font-weight="700" font-size="18" fill="currentColor">DELETEME</text></svg></div>
+            <div class="logo-item"><svg viewBox="0 0 200 40" fill="none"><path d="M15 10 L30 30 L45 10 L30 22 Z" stroke="currentColor" stroke-width="3" fill="none" stroke-linejoin="round"/><text x="60" y="27" font-family="var(--font-display)" font-weight="700" font-size="16" fill="currentColor">BITDEFENDER</text></svg></div>
+            <div class="logo-item"><svg viewBox="0 0 160 40" fill="none"><circle cx="30" cy="20" r="10" stroke="currentColor" stroke-width="3" fill="none"/><line x1="30" y1="10" x2="30" y2="30" stroke="currentColor" stroke-width="3"/><text x="60" y="27" font-family="var(--font-display)" font-weight="700" font-size="18" fill="currentColor">ALLEN</text></svg></div>
+            <div class="logo-item"><svg viewBox="0 0 160 40" fill="none"><polygon points="30,8 48,32 12,32" fill="currentColor"/><text x="60" y="27" font-family="var(--font-display)" font-weight="700" font-size="18" fill="currentColor">NEXUS</text></svg></div>
+            <div class="logo-item"><svg viewBox="0 0 160 40" fill="none"><path d="M20 10 L35 25 L50 10 L45 30 L15 30 Z" fill="currentColor"/><text x="60" y="27" font-family="var(--font-display)" font-weight="700" font-size="18" fill="currentColor">APEX</text></svg></div>
+            <!-- Duplicated for infinite loop -->
+            <div class="logo-item"><svg viewBox="0 0 160 40" fill="none"><path d="M15 30 C15 10, 45 10, 45 30" stroke="currentColor" stroke-width="4" fill="none"/><text x="60" y="27" font-family="var(--font-display)" font-weight="700" font-size="18" fill="currentColor">HELIX</text></svg></div>
+            <div class="logo-item"><svg viewBox="0 0 180 40" fill="none"><rect x="15" y="10" width="30" height="20" rx="4" stroke="currentColor" stroke-width="3" fill="none"/><line x1="15" y1="10" x2="45" y2="30" stroke="currentColor" stroke-width="3"/><text x="60" y="27" font-family="var(--font-display)" font-weight="700" font-size="18" fill="currentColor">DELETEME</text></svg></div>
+            <div class="logo-item"><svg viewBox="0 0 200 40" fill="none"><path d="M15 10 L30 30 L45 10 L30 22 Z" stroke="currentColor" stroke-width="3" fill="none" stroke-linejoin="round"/><text x="60" y="27" font-family="var(--font-display)" font-weight="700" font-size="16" fill="currentColor">BITDEFENDER</text></svg></div>
+            <div class="logo-item"><svg viewBox="0 0 160 40" fill="none"><circle cx="30" cy="20" r="10" stroke="currentColor" stroke-width="3" fill="none"/><line x1="30" y1="10" x2="30" y2="30" stroke="currentColor" stroke-width="3"/><text x="60" y="27" font-family="var(--font-display)" font-weight="700" font-size="18" fill="currentColor">ALLEN</text></svg></div>
+            <div class="logo-item"><svg viewBox="0 0 160 40" fill="none"><polygon points="30,8 48,32 12,32" fill="currentColor"/><text x="60" y="27" font-family="var(--font-display)" font-weight="700" font-size="18" fill="currentColor">NEXUS</text></svg></div>
+            <div class="logo-item"><svg viewBox="0 0 160 40" fill="none"><path d="M20 10 L35 25 L50 10 L45 30 L15 30 Z" fill="currentColor"/><text x="60" y="27" font-family="var(--font-display)" font-weight="700" font-size="18" fill="currentColor">APEX</text></svg></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Down Indicator -->
+    <div class="scroll-indicator anim-fade-up" style="--delay: 1.2s">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span class="scroll-text">Scroll</span>
+    </div>
+  </section>
+
+  <!-- SOCIAL PROOF & METRICS -->
+  <section class="social-proof-section" id="social-proof">
+    <div class="max-w-container">
+      <h2 class="social-headline reveal text-center section-h2">
+        We know how to select influencers who influence your buyers
+      </h2>
+
+      <div class="metrics-ticker-row">
+        <div class="ticker-metric-item reveal" style="--stagger: 0">
+          <div class="metric-num-wrap">
+            <span class="ticker-number" data-target="20" data-prefix="$" data-suffix="M+">0</span>
+          </div>
+          <p class="ticker-label">Annual media budgets managed</p>
+        </div>
+        <div class="ticker-metric-item reveal" style="--stagger: 1">
+          <div class="metric-num-wrap">
+            <span class="ticker-number" data-target="12" data-suffix="+">0</span>
+          </div>
+          <p class="ticker-label">Years of performance data</p>
+        </div>
+        <div class="ticker-metric-item reveal" style="--stagger: 2">
+          <div class="metric-num-wrap">
+            <span class="ticker-number" data-target="3000" data-suffix="+">0</span>
+          </div>
+          <p class="ticker-label">Influencer partnerships</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUE PROPOSITION & MOCK-UI -->
+  <section class="value-prop-section" id="value-prop">
+    <div class="max-w-container grid-2col">
+      
+      <div class="value-toggles-container reveal">
+        <h2 class="section-h2 value-section-title">Why brands choose us</h2>
+        <div class="toggle-card active" data-index="0">
+          <div class="toggle-indicator"></div>
+          <h3 class="toggle-card-title">Full-funnel thinking</h3>
+          <p class="toggle-card-text">From immediate brand lift to trackable bottom-line revenue. We structure multi-stage campaigns that drive returns at every node of the consumer pipeline.</p>
+        </div>
+        <div class="toggle-card" data-index="1">
+          <div class="toggle-indicator"></div>
+          <h3 class="toggle-card-title">Impactful content</h3>
+          <p class="toggle-card-text">Content built to educate, scale, and convert. We engineer messaging guidelines that lead to organic customer conversations and higher conversions.</p>
+        </div>
+        <div class="toggle-card" data-index="2">
+          <div class="toggle-indicator"></div>
+          <h3 class="toggle-card-title">Compliance & brand safety</h3>
+          <p class="toggle-card-text">Handled completely for you. We deploy rigorous automated auditing and oversight rules to keep your enterprise brand identity safe and fully compliant.</p>
+        </div>
+      </div>
+
+      <div class="parallax-window-container reveal">
+        <div class="perspective-frame">
+          <div class="depth-card float-ui-card ui-tiktok" style="--d: 1;">
+            <div class="ui-header"><span class="dot-red"></span><span class="dot-yellow"></span><span class="dot-green"></span></div>
+            <div class="ui-body">
+              <div class="ui-profile">
+                <div class="ui-avatar"></div>
+                <div class="ui-user-info"><span class="ui-username">@core_insight</span><span class="ui-meta-text">Campaign reach</span></div>
+              </div>
+              <div class="ui-stat-row"><span class="ui-stat-value">1.4M</span><span class="ui-stat-badge">+24%</span></div>
+              <div class="ui-mini-chart">
+                <div class="chart-bar" style="height: 40%"></div>
+                <div class="chart-bar" style="height: 60%"></div>
+                <div class="chart-bar" style="height: 55%"></div>
+                <div class="chart-bar" style="height: 80%"></div>
+                <div class="chart-bar" style="height: 95%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="depth-card float-ui-card ui-instagram" style="--d: 2;">
+            <div class="ui-header"><span class="ui-header-title">CTR Metrics</span></div>
+            <div class="ui-body">
+              <div class="ui-radial-progress">
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <defs><linearGradient id="pg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#2B35C9"/><stop offset="100%" style="stop-color:#7B8FFF"/></linearGradient></defs>
+                  <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                  <path class="circle" stroke="url(#pg)" stroke-dasharray="82, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                </svg>
+                <div class="percentage">82%</div>
+              </div>
+              <p class="ui-descr">Conversion Rate</p>
+            </div>
+          </div>
+          <div class="depth-card float-ui-card ui-analytics" style="--d: 3;">
+            <div class="ui-header"><span class="ui-header-title">ROI Analytics</span></div>
+            <div class="ui-body">
+              <div class="ui-chart-line-wrap">
+                <svg viewBox="0 0 100 35" class="line-chart-svg">
+                  <defs><linearGradient id="lg" x1="0%" y1="0%" x2="100%"><stop offset="0%" style="stop-color:#2B35C9"/><stop offset="100%" style="stop-color:#7B8FFF"/></linearGradient></defs>
+                  <path d="M 5,30 Q 20,28 35,18 T 65,10 T 95,4" fill="none" stroke="url(#lg)" stroke-width="2.5" stroke-linecap="round" class="anim-line-draw"/>
+                  <circle cx="95" cy="4" r="3" fill="#7B8FFF" class="anim-pulse-dot"/>
+                </svg>
+              </div>
+              <div class="ui-analytics-metrics"><span>ROI: 4.8x</span><span>Target: 3.5x</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASE STUDIES -->
+  <section class="cases-section-container" id="cases">
+    <div class="max-w-container">
+      <div class="section-center-header reveal">
+        <h2 class="section-h2">SEE WHAT WE'VE DONE</h2>
+        <div class="tabs-pill-wrap" role="tablist">
+          <div class="liquid-bg-pill" aria-hidden="true"></div>
+          <button class="tab-pill active" role="tab" aria-selected="true" data-category="Cybersecurity">Cybersecurity</button>
+          <button class="tab-pill" role="tab" aria-selected="false" data-category="EdTech">EdTech</button>
+          <button class="tab-pill" role="tab" aria-selected="false" data-category="HealthTech">HealthTech</button>
+          <button class="tab-pill" role="tab" aria-selected="false" data-category="Mobile Apps">Mobile Apps</button>
+          <button class="tab-pill" role="tab" aria-selected="false" data-category="SaaS">SaaS</button>
+        </div>
+      </div>
+
+      <div class="case-showcase-frame reveal">
+        <div class="case-showcase-card" id="caseShowcaseCard">
+          <div class="case-showcase-content">
+            <span class="showcase-tag" id="showcaseTag">Cybersecurity</span>
+            <h3 class="showcase-title" id="showcaseTitle">Defending Data: 4.5M Reach overlay campaign for Bitdefender</h3>
+            <p class="showcase-descr" id="showcaseDescr">By matching security compliance experts with tech influencers, we built an authoritative series outlining structural security, driving thousands of direct sign-ups.</p>
+            <div class="showcase-meta-data" id="showcaseMeta">
+              <div class="meta-item"><span class="meta-val">4.5M</span><span class="meta-lbl">Impressions</span></div>
+              <div class="meta-item"><span class="meta-val">+42%</span><span class="meta-lbl">CTR Gain</span></div>
+            </div>
+          </div>
+          <div class="case-showcase-visual">
+            <img id="showcaseImg" src="assets/case_1.png" alt="Campaign preview">
+            <div class="video-overlay-button"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials-grid-section">
+    <div class="max-w-container">
+      <div class="section-center-header reveal">
+        <h2 class="section-h2 text-center">Client Testimonials</h2>
+      </div>
+      <div class="testimonials-3d-grid">
+        <blockquote class="testimonial-3d-card reveal" style="--stagger: 0">
+          <div class="card-quote-mark">&ldquo;</div>
+          <p class="card-quote-text">&ldquo;Coresight built a structural strategy that allowed DeleteMe to launch scalable channels, unlocking customer cohorts we had missed.&rdquo;</p>
+          <div class="card-footer">
+            <div class="card-client-avatar" style="background: linear-gradient(135deg, var(--primary), var(--accent-glow));">DM</div>
+            <div class="card-client-meta"><h4 class="card-client-name">Marcus V.</h4><p class="card-client-company">VP Growth, DeleteMe</p></div>
+          </div>
+        </blockquote>
+        <blockquote class="testimonial-3d-card reveal" style="--stagger: 1">
+          <div class="card-quote-mark">&ldquo;</div>
+          <p class="card-quote-text">&ldquo;A performance-centric methodology. Their transparency took typical agency friction out of the equation and delivered validation metrics.&rdquo;</p>
+          <div class="card-footer">
+            <div class="card-client-avatar" style="background: linear-gradient(135deg, var(--secondary), #8B9AFF);">BD</div>
+            <div class="card-client-meta"><h4 class="card-client-name">Sarah K.</h4><p class="card-client-company">Director of Acquisition, Bitdefender</p></div>
+          </div>
+        </blockquote>
+        <blockquote class="testimonial-3d-card reveal" style="--stagger: 2">
+          <div class="card-quote-mark">&ldquo;</div>
+          <p class="card-quote-text">&ldquo;Outstanding execution. Their optimization logic compound has driven millions in recurring enterprise pipelines and signups.&rdquo;</p>
+          <div class="card-footer">
+            <div class="card-client-avatar" style="background: linear-gradient(135deg, #0D0D15, #2B35C9);">AD</div>
+            <div class="card-client-meta"><h4 class="card-client-name">David L.</h4><p class="card-client-company">Founder, ALLEN Digital</p></div>
+          </div>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- KEY RESULTS -->
+  <section class="results-grid-section" id="results">
+    <div class="max-w-container">
+      <div class="section-center-header reveal text-center">
+        <h2 class="section-h2">Key Results</h2>
+        <p class="results-meta-descr">Accountability tracking. Scale validated with results.</p>
+      </div>
+      <div class="results-minimal-grid">
+        <div class="result-tile reveal" style="--stagger: 0"><span class="result-value-text">4x</span><p class="result-label-text">CPA decrease</p></div>
+        <div class="result-tile reveal" style="--stagger: 1"><span class="result-value-text">8-figure</span><p class="result-label-text">ARPU via Influencer Channel</p></div>
+        <div class="result-tile reveal" style="--stagger: 2"><span class="result-value-text">10</span><p class="result-label-text">Record-breaking ROI</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & FOOTER SPLIT -->
+  <section class="contact-footer-split" id="contact">
+    <div class="max-w-container grid-2col contact-grid">
+      
+      <div class="reviews-marquee-column reveal">
+        <div class="marquee-scroller-wrap">
+          <div class="marquee-scroller-track" id="verticalMarqueeTrack">
+            <div class="marquee-comment-card"><p class="comment-msg">"Best decision our scaling team made this year."</p><span class="comment-author">— Director of Product, CarEdge</span></div>
+            <div class="marquee-comment-card"><p class="comment-msg">"The compliance auditing is pristine and flawless."</p><span class="comment-author">— CMO, Cybersecurity Brand</span></div>
+            <div class="marquee-comment-card"><p class="comment-msg">"An average 4.8x ROI recorded across SaaS campaigns."</p><span class="comment-author">— Founder, EdTech Ltd</span></div>
+            <div class="marquee-comment-card"><p class="comment-msg">"Seamless influencer partnerships scaled YoY."</p><span class="comment-author">— Acquisition Lead, Mobile Apps Corp</span></div>
+            <div class="marquee-comment-card"><p class="comment-msg">"Best decision our scaling team made this year."</p><span class="comment-author">— Director of Product, CarEdge</span></div>
+            <div class="marquee-comment-card"><p class="comment-msg">"The compliance auditing is pristine and flawless."</p><span class="comment-author">— CMO, Cybersecurity Brand</span></div>
+            <div class="marquee-comment-card"><p class="comment-msg">"An average 4.8x ROI recorded across SaaS campaigns."</p><span class="comment-author">— Founder, EdTech Ltd</span></div>
+            <div class="marquee-comment-card"><p class="comment-msg">"Seamless influencer partnerships scaled YoY."</p><span class="comment-author">— Acquisition Lead, Mobile Apps Corp</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-capture-wrapper reveal">
+        <div class="contact-capture-card">
+          <h3 class="contact-card-title">Your brand deserves the spotlight.</h3>
+          <form id="leadContactForm" class="lead-form" novalidate>
+            <div class="form-group-magnetic"><input type="text" id="leadName" name="name" class="lead-input" placeholder="Your Name" required><span class="lead-error">Please enter your name</span></div>
+            <div class="form-group-magnetic"><input type="text" id="leadCompany" name="company" class="lead-input" placeholder="Brand / Company" required><span class="lead-error">Please enter your company</span></div>
+            <div class="form-group-magnetic"><input type="email" id="leadEmail" name="email" class="lead-input" placeholder="Your Email" required><span class="lead-error">Please enter a valid email</span></div>
+            <div class="form-group-magnetic"><textarea id="leadMessage" name="message" class="lead-input" rows="3" placeholder="What do you have in mind?" required></textarea><span class="lead-error">Please describe your project</span></div>
+            <div class="recaptcha-mock-wrap">
+              <label class="recaptcha-label"><input type="checkbox" name="recaptcha" class="recaptcha-checkbox" required><span class="recaptcha-text">I'm not a robot</span></label>
+              <div class="recaptcha-badge"><svg viewBox="0 0 24 24" class="recaptcha-svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/></svg><span>reCAPTCHA</span></div>
+            </div>
+            <button type="submit" class="lead-submit btn-magnetic">Let's Talk +</button>
+          </form>
+          <div id="leadSuccessOverlay" class="lead-success-overlay" role="alert" aria-hidden="true">
+            <svg class="success-check-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <h4 class="success-overlay-title">Message Sent!</h4>
+            <p class="success-overlay-text">Our strategy team will reach out shortly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="base-footer">
+    <div class="max-w-container">
+      <div class="footer-main-row">
+        <div class="footer-brand-lockup"><span class="footer-signoff">CORESIGHT MARKETING</span><span class="footer-tagline">We turn influence into impact.</span></div>
+        <nav class="footer-links-row"><a href="#" class="footer-link">LinkedIn</a><a href="#value-prop" class="footer-link">Services</a><a href="#cases" class="footer-link">Case Studies</a><a href="#results" class="footer-link">Insights</a><a href="#" class="footer-link">Privacy</a></nav>
+      </div>
+      <div class="footer-divider-row"></div>
+      <div class="footer-copyright-row"><p>&copy; 2026 Coresight Marketing. All rights reserved.</p></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        console.log("--- START OVERFLOW CHECK ---");
+        document.querySelectorAll('*').forEach(el => {
+          const rect = el.getBoundingClientRect();
+          const width = el.offsetWidth || rect.width;
+          if (width > 500) {
+            console.log(`OVERFLOW_DETECTION: ${el.tagName} | Class: ${Array.from(el.classList).join('.')} | Width: ${width}px`);
+          }
+        });
+        console.log("--- END OVERFLOW CHECK ---");
+      }, 1000);
+    });
+  </script>
+</body>
+</html>
